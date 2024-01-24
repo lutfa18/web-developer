@@ -1,2 +1,56 @@
-/* nav related styles*/
-nav{display: flex;}
+/* common shared styles */
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+body {
+  font-family: "Open Sans", sans-serif;
+  
+}
+.text-primary{
+    color: hsla(25, 98%, 52%, 1);
+}
+.btn-primary{background: #FD6E0A;
+    border: 0;
+    font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding: 15px 35px;
+
+}
+/* nav relted styles */
+nav{display: flex;
+    justify-content: space-between;
+     align-items: center;}
+.nav-title{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Manrope;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+ nav >ul{display: flex;
+        align-items: center;}
+
+ nav li{
+    list-style: none;
+    margin-right: 50px;
+ }
+
+ nav a{ 
+    text-decoration: none;
+    color: background: hsla(0, 0%, 28%, 1);
+    
+ }
